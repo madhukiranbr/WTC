@@ -1,0 +1,27 @@
+$ docker manifest inspect quay.io/ocs-dev/ocs-operator:latest
+{
+        "schemaVersion": 2,
+        "mediaType": "application/vnd.docker.distribution.manifest.v2+json",
+        "config": {
+                "mediaType": "application/vnd.docker.container.image.v1+json",
+                "size": 4944,
+                "digest": "sha256:b3c48449094c2bfa6306529692ecdb72809d2cdbd049aba5def1c465bd6c137f"
+        },
+        "layers": [
+                {
+                        "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                        "size": 76247035,
+                        "digest": "sha256:c9fa7d57b9028d4bd02b51cef3c3039fa7b23a8b2d9d26a6ce66b3428f6e2457"
+                },
+                {
+                        "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                        "size": 1720,
+                        "digest": "sha256:74cbb6607642df5f9f70e8588e3c56d6de795d1a9af22866ea4cc82f2dad4f14"
+                },
+                {
+                        "mediaType": "application/vnd.docker.image.rootfs.diff.tar.gzip",
+                        "size": 20373980,
+                        "digest": "sha256:ec6cee990696aecf93b4a2a0781b2dec53ccde7ce8cb08d5c049006ea2248686"
+                }
+        ]
+}
